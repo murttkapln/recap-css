@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <style>
+        /* Internal Css */
+        .par{
+            color: chocolate;
+            background-color: antiquewhite;
+        }
+        #container{
+            border: 2px solid yellowgreen;
+        }
+    </style>
     <!-- HTML kodunu stillendirme dosyası ile baglantisi -->
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title> Recap</title>
@@ -16,11 +26,12 @@
     <h5>Hi Guys!</h5>
     <h6>Hi Guys!</h6>
 
-    <div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium architecto nostrum quis, ab beatae commodi sint! Voluptatum ea iure itaque provident officiis rerum! Aliquid a magnam, fugit est voluptate ducimus.</p>
+    <div id="container">
+        <p class="par">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium architecto nostrum quis, ab beatae commodi sint! Voluptatum ea iure itaque provident officiis rerum! Aliquid a magnam, fugit est voluptate ducimus.</p>
+        <!--* Inline Css -->
+        <p style="color: red; background-color: black;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat id fuga excepturi optio nisi sint deleniti rem ducimus facere dolorum.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat id fuga excepturi optio nisi sint deleniti rem ducimus facere dolorum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis corporis, voluptates assumenda hic ea.</p>
+        <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis corporis, voluptates assumenda hic ea.</p>
     </div>
 </body>
 </html>
