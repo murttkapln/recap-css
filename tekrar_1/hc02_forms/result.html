@@ -6,15 +6,15 @@
     <title>Results</title>
   </head>
   <body>
-    <div id="results">
-      <a href="form.html">Back To Form</a>
-      <script>
-        const resultList = document.getElementById("results");
-        new URLSearchParams(window.location.search).forEach((value, name) => {
-          resultList.append(`${name}: ${value}`);
-          resultList.append(document.createElement("br"));
-        });
-      </script>
-    </div>
+    <div id="results"></div>
+    <a href="form.html">Back To Form</a>
+    <script>
+      const resultList = document.getElementById("results");
+      new URLSearchParams(window.location.search).forEach((value, name) => {
+        resultList.append(`${name}: ${value}`);
+        resultList.append(document.createElement("br"));
+      });
+    </script>
+    <br />
   </body>
 </html>
