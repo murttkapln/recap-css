@@ -56,3 +56,8 @@ body {
   word-spacing: 5px;
   line-height: 1.9;
 }
+
+
+.indent{
+    text-indent: 50px;
+}
