@@ -31,13 +31,28 @@ body {
 } */
 
 #my-body .text-style span {
-    color: red;
+  color: red;
 }
 
 #my-body .decoration {
-    color: green;
-    text-decoration: overline;
-    text-decoration: underline;
-    text-decoration: line-through;
-    text-decoration: none;
+  color: green;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: none;
+}
+
+.transformation {
+  color: blueviolet;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
+}
+
+.spacing {
+  color: yellowgreen;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 1.9;
 }
