@@ -61,3 +61,7 @@ body {
 .indent{
     text-indent: 50px;
 }
+.direct{
+    text-align: right;
+    direction: rtl;
+}
