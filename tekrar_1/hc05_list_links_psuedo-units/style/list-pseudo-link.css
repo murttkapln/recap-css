@@ -11,3 +11,14 @@ ul {
 
   list-style-image: url("../img//plane-solid.svg");
 }
+
+h2 i {
+  font-size: 40px;
+}
+
+h2 {
+  color: blueviolet;
+}
+.fa-solid {
+  color: red;
+}
