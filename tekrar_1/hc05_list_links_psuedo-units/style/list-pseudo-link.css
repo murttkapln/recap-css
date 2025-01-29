@@ -1,4 +1,8 @@
-ul {
+body {
+  font-family: "Quicksand", serif;
+}
+ul.languages {
+  font-family: "Bruno Ace SC", serif;
   list-style-type: circle;
   list-style-type: square;
   list-style-type: none;
@@ -22,3 +26,60 @@ h2 {
 .fa-solid {
   color: red;
 }
+
+/* ! ----------PSEUDO CLASSESS---------- */
+
+
+ul.pseudo li{
+    background-color: darkgrey;
+    font-weight: 700;
+}
+ul.pseudo li:first-child {
+    color: blue;
+}
+ul.pseudo li:last-child{
+    color: green;
+}
+ul.pseudo li:nth-child(5){
+    color: purple;
+    font-weight: 300;
+}
+
+ul.pseudo li:nth-child(odd){
+    color: hotpink;
+    background-color: lightgray;
+}
+ul.pseudo li:nth-child(even){
+    color: #bebe;
+}
+
+/* ? tek degilse */
+/* ul.pseudo li:not(odd){
+   background-color: green;
+} */
+
+
+ul.pseudo li:hover{
+    /* opacity: 0.5; */
+    background-color: black;
+    cursor: pointer;
+}
+
+ul.pseudo li:active{
+    background-color: green;
+}
+ul.pseudo li:visited{
+    background-color: purple;
+}
+
+
+/* ? Class'i x olan p elementinin icerisinde .y class'inin icindeki z id'li elementi sec */
+/* p.x .y #z {
+} */
+
+/* <p class="x">
+        <div class="y">
+            <div id="z"></div>
+            <div class="k"></div>
+        </div>
+    </p> */
