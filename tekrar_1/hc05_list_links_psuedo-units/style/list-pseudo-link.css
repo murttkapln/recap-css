@@ -72,6 +72,12 @@ ul.pseudo li:visited{
     background-color: purple;
 }
 
+#input:focus{
+    background-color: tomato;
+    color: white;
+    border: 4px dotted white;
+    outline: none;
+}
 
 /* ? Class'i x olan p elementinin icerisinde .y class'inin icindeki z id'li elementi sec */
 /* p.x .y #z {
@@ -83,3 +89,21 @@ ul.pseudo li:visited{
             <div class="k"></div>
         </div>
     </p> */
+
+
+    /* ! ----------LINKS PSEUDO CLASSESS---------- */
+  
+
+nav.links a:link {
+    color: brown;
+}
+nav.links a:visited {
+    color: lightpink;
+}
+nav.links a:active {
+    color: magenta;
+}
+nav.links a:hover {
+    color: green;
+    text-decoration: none;
+}
