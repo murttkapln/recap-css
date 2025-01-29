@@ -93,6 +93,16 @@ ul.pseudo li:visited{
 
     /* ! ----------LINKS PSEUDO CLASSESS---------- */
   
+/* nav.links a{
+    color: crimson;
+    text-decoration: none;
+
+}
+nav.links a:hover{
+    color: purple;
+    text-decoration: underline;
+
+} */
 
 nav.links a:link {
     color: brown;
