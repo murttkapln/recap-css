@@ -13,7 +13,7 @@ ul.languages {
   list-style-position: inside;
   padding: 20px;
 
-  list-style-image: url("../img//plane-solid.svg");
+  list-style-image: url("../img/trash-solid.svg");
 }
 
 h2 i {
@@ -124,4 +124,31 @@ nav.links a:hover {
   color: red;
   font-size: 40px;
   font-style: italic;
+}
+
+
+ul.before-after li:before{
+    content: "😢";
+
+}
+ul.before-after li:nth-child(3)::before{
+    content:"👌" ;
+}
+ul.before-after li:last-child::after{
+    content:"😔" ;
+}
+ul.before-after li:first-child::after {
+    content: "🍕";
+}
+ul.before-after li:nth-child(2)::after {
+    content: ":   Nice Good Car ";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 500;
+    content: "  \f2ed ";
+}
+ul.before-after li:nth-child(3):hover::after {
+    content: "  LANNN ";
+    color: red;
+    font-size: 10px;
+    
 }
