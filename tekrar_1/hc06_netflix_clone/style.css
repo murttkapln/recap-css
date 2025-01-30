@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 
-/* body {
-    background-image: url("./img/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg");
-} */
+body {
+  background-image: url("./img/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #container {
   max-width: 1240px;
-  height: 1036px;
+  /* height: 1036px; */
   background-color: rgb(0, 0, 0, 0.3);
 
   margin: auto;
@@ -42,4 +45,34 @@ span {
   margin: auto;
   padding: 30px 40px;
   margin-bottom: 30px;
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.input-box {
+  margin-top: 20px;
+}
+#check-box,
+#radio {
+  margin-top: 40px;
+}
+#feedback {
+  resize: none;
+  height: 91.46px;
+}
+#form-button{
+  width: 160px;
+  height: 45px;
+  background-color: #ff0000;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
