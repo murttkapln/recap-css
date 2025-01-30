@@ -44,9 +44,42 @@
             <input type="email" name="email" id="email" placeholder="Enter your email" />
           </div>
 
+          <div class="input-box">
+            <label for="">Content Type</label> <br>
+            <select name="content" id="dropdown">
+              <option value="movies">Movies</option>
+              <option value="series">Series</option>
+              <option value="tv-shows">TV Shows</option>
+            </select>
+          </div>
+
+          <div class="input-box" id="checkbox">
+            <label for="">Movie Type</label> <br>
+            <input type="checkbox" name="movie1" id="first-check">
+            <label for="first-check">Comedy</label><br>
+            <input type="checkbox" name="movie2" id="second-check">
+            <label for="second-check">Action</label><br>
+            <input type="checkbox" name="movie3" id="third-check">
+            <label for="third-check">Romance</label><br>
+          </div>
+
+          <div class="input-box" id="radio">
+            <label for="">Gender</label> <br>
+            <input type="radio" name="gender" id="first-radio" value="Male">
+            <label for="first-radio">Male</label> <br>
+            <input type="radio" name="gender" id="second-radio" value="Female">
+            <label for="second-radio">Female</label> <br>
+            <input type="radio" name="gender" id="third-radio" value="Other">
+            <label for="third-radio">Other</label> <br>
+          </div>
+          <div class="input-box">
+            <label for="feedback">Feedback</label> <br>
+            <textarea name="feedback" id="feedback" rows="10" cols="30"></textarea>
+          </div>
+
           <div class="form-submit">
             <button type="submit">Send</button>
-          </div>
+          </div>  
         </form> 
     </div>
   </body>
