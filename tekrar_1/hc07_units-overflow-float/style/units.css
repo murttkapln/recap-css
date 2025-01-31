@@ -102,3 +102,10 @@ p.percent {
 .div9{
     font-size: 3rem; /** 48px */
 }
+
+.box{
+    background-color: lightcoral;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
