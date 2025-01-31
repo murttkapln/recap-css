@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 30%;
+  float: left;
+}
+/* .img1 {
+  float: left;
+}
+.img2 {
+  float: left;
+} */
+/* .text {
+  float: right;
+} */
+
+.clearfix {
+  clear: both;
+}
+
+.box {
+  float: left;
+  font-size: 2rem;
+  text-align: center;
+}
+.box1 {
+  background-color: green;
+  width: 30%;
+}
+.box2 {
+  background-color: magenta;
+  width: 25%;
+}
+.box3 {
+  background-color: turquoise;
+  width: 35%;
+}
