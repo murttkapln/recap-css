@@ -1,6 +1,8 @@
 html {
   /* height: 1000px; */
   /* height: 100%; */
+  /* ? ROOT */
+  /** html 'in default font-size'i 16px'dir */
 }
 
 body {
@@ -61,4 +63,42 @@ p.percent {
 
   /** vh'da parent yerine viewport'un yuksekligine bakilir. 10vh, tarayicinin gorunur yuksekliginin %10'u emektir. */
   height: 10vh;
+}
+
+
+/*! em olcu biriminde bir html elemaninin font- size'i parent'in font-size'ina gore oranlanır.  */
+
+.div4{
+    background-color: indigo;
+    color: white;
+    font-size: 1em; /* *16px */
+    width: 150px;
+}
+.div5{
+    background-color: lightblue;
+    color: white;
+    font-size: 2em; /* *32px */
+    width: 150px;
+}
+.div6{
+
+    background-color: yellowgreen;
+    color: white;
+    font-size: 3em; /* *96px */
+   /*  font-size: 0.5em; /* *16px */ */
+    width: 150px;
+}
+
+
+/*! em olcu biriminde bir html elemaninin font- size'i root elemaninin (html) font-size'ina font-size'ina gore oranlanır.  */
+
+
+.div7{
+    font-size: 1rem; /** 16px */
+}
+.div8{
+    font-size: 2rem; /** 32px */
+}
+.div9{
+    font-size: 3rem; /** 48px */
 }
