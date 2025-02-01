@@ -4,16 +4,36 @@
   margin: 0;
 }
 
-ul.nav{
-    background-color: cadetblue;
-    padding: 1rem;
-    list-style-type: none;
-    text-align: center;
+ul.nav {
+  background-color: cadetblue;
+  padding: 1rem;
+  list-style-type: none;
+  text-align: center;
+  height: 15rem;
+
+  display: flex;
+  /*! Elemanlarin dizilis yonu: column, row , row-reverse, column-reverse  */
+  flex-direction: row /*? default */;
+  gap: 1rem 4rem; /* Satir-sütun arasi bosluk */
+  flex-wrap: wrap; /*?  sıkıstırma veya alt satira gecebilme */
+
+  /*! Yatay hizalama  */
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+
+  /*! Dikey Hizalama  */
+  /* align-items: center; */
+  /* align-items: flex-start;
+  align-items: flex-end; */
+  /*! Cok satirli verilerin dikeyde hizalanmasi icin kullanilir.  */
+  align-content: center;
 }
 
-ul.nav li{
-    background-color: chocolate;
-    width: 7rem;
-    padding: 0.5rem;
-    border-radius: 5px;
+ul.nav li {
+  background-color: chocolate;
+  width: 7rem;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
