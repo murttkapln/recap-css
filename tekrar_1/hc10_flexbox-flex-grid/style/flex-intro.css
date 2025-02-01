@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nav{
+    background-color: cadetblue;
+    padding: 1rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.nav li{
+    background-color: chocolate;
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
