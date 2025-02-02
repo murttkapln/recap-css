@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smokum&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+@import "./theme.css";
+
+/*! Colors  */
+:root {
+  --white: #ffd;
+  --black: #053d38;
+  --green: #34675c;
+  --green-light: hsl(180, 83%, 40%);
+  --olive: hsl(166, 33%, 30%);
+  --yellow-dark: hsl(132, 28%, 40%);
+  --orange-dark: hsl(25, 100%, 32%);
+  --orange-vivid: hsl(25, 100%, 50%);
+  --orange-light: hsl(25, 100%, 65%);
+
+  /*!Font-Families  */
+  --ff-roboto: "Roboto Condensed", serif;
+  --ff-smokum: "Smokum", serif;
+  /*! Font-Sizes  */
+  --fs-3xl: 3rem;
+  --fs-2xl: 2rem;
+  --fs-xl: 1.8rem;
+  --fs-lg: 1.4rem;
+  --fs-md: 1rem;
+  --fs-sm: 0.8rem;
+  --fs-xs: 0.6rem;
+  /*! Shadow  */
+
+  --shadow-light: 0 0 10px rgba(0.0.0.3);
+  --shadow-dark: 0 0 10px rgba(0.0.0.6);
+}
+
+h1 {
+  color: var(--orange-dark);
+  font-family: var(--ff-roboto);
+}
+p {
+  font-family: var(--ff-smokum);
+  font-size: var(--fs-lg);
+}
+button {
+  background-color: var(--purple);
+  width: 100px;
+  padding: 1rem;
+}
+button:hover {
+  background-color: var(--green);
+}
+
+
+div.dark{
+    margin: 1rem;
+    box-shadow: var(--shadow-dark);
+    background-color: var(--orange-light);
+    border: 4px solid var(--black);
+}
+div.light{
+    margin:1rem;
+    box-shadow: var(--shadow-light);
+} 
