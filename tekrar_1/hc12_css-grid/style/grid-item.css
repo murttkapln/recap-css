@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 1rem 1.5rem;
+
+  /*? Frid'i yattay duzlemde hizalar  */
+  justify-content: center;
+}
+
+.content {
+  border: 1px solid #000;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.c6 {
+  justify-self: end;
+}
+
+.c7 {
+  align-self: flex-start;
+}
+.c3 {
+  align-self: flex-end;
+}
+.c1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.c4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: red;
+}
+.c8 {
+  /* grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5; */
+  grid-area: 3/2/5/4; /*! row_Start/ col-start / row-end /col-end  */
+  background: #699e81;
+}
+/* .c12{
+    grid-area: ;
+} */
