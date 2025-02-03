@@ -55,6 +55,15 @@
   grid-area: 3/2/5/4; /*! row_Start/ col-start / row-end /col-end  */
   background: #699e81;
 }
-/* .c12{
-    grid-area: ;
-} */
+.c12 {
+  grid-column: span 3;
+  background: magenta;
+}
+.c9 {
+  grid-row: span 2;
+  background: darkgoldenrod;
+}
+.c13 {
+  grid-area: span 2 / 2;
+  background: darkblue;
+}
