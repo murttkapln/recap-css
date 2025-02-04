@@ -54,7 +54,7 @@ body {
   }
 } */
 
-@keyframes hop-up {
+/* @keyframes hop-up {
   0% {
     transform: translateY(-250px);
   }
@@ -88,4 +88,4 @@ body {
   100% {
     transform: translateY(0px);
   }
-}
+} */
