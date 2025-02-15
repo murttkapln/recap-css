@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        width: 100vw;
+      }
+      .form{
+        width: 45vw;
+        background-color: brown;
+        margin: 2rem;
+      }
+      .form div {
+        width: 45vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+      }
+      .form div label {
+        padding: 0.5rem;
+      }
+      .form div input{
+        width: 13rem;
+        height: 2rem;
+      }
+      .button{
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
+      .button button{
+        width: 8rem;
+        height: 3rem;
+      }
+    </style>
+  </head>
+    <form action="#" class="form">
+      <div>
+        <label for="email">E posta</label>
+        <input type="email" name="email" id="email" value="" />
+      </div>
+      <div>
+        <label for="password">Şifre</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="safety-code">Güvenlik Kodu</label>
+        <input type="password" name="safety-code" id="safety-code" />
+      </div>
+    </form>
+    <div class="button">
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </div>
+  </body>
+</html>
