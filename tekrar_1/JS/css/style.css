@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+      background-image: url("https://picsum.photos/id/211/600/400");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    /* background-color: hsl(1, 30%, 10%); */
+  }
+  h1 {
+    color: aquamarine;
+    word-spacing: 1rem;
+  }
