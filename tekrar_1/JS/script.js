@@ -284,7 +284,6 @@ gidelim
 
 // const number = +prompt("Gİve a positive number");
 
-
 // const isPrime = (number)=>{
 //   let prime = true;
 //   for (let i = 2; i < number; i++) {
@@ -301,7 +300,7 @@ gidelim
 // let i = 1;
 
 // while (i<=10) {
-  
+
 //   console.log(i + "=> Matrushka");
 //   i++;
 // }
@@ -309,7 +308,7 @@ gidelim
 // let note;
 // do {
 //   note = +prompt("0-100")
-  
+
 // } while (note <0 || note>100);
 // console.log(note,":Girdiğiniz not 1-100 arasindadir.");
 
@@ -318,7 +317,97 @@ gidelim
 
 // do {
 //   guess = + prompt("Gİve again")
-  
+
 // } while (guess !== number);
 
 // console.log(guess, number, "Congrats");
+
+// let year = +prompt("Give ur birth year here")
+// function yasYazdir(year){
+//     console.log(`Benim adim Mehmet ve Ben ${2025-year} yasindayim.`);
+// }
+
+// yasYazdir(year);
+// function yasYazdir(name, year) {
+//   console.log(
+//     `My name is ${name} and I am ${new Date().getFullYear() - year} years old.`
+//   );
+// }
+
+// yasYazdir("Murat", 1993)
+
+// console.log(new Date().getFullYear());
+
+// function yasYazdir(name, bod) {
+//   age = new Date().getFullYear() - bod;
+//   console.log(`My name is ${name} and I am ${age} years old.`);
+//   return age;
+// }
+
+// const ageMurat = yasYazdir("Murat", 1993);
+// const ageAhmet = yasYazdir("Ahmet", 1990);
+// const ageSeda = yasYazdir("Seda", 1989);
+
+// function yasOrtalamasi(first, second, third) {
+//   let ort = (first + second + third) / 3;
+//   console.log(ort.toFixed());
+// }
+// yasOrtalamasi(ageAhmet, ageMurat, ageSeda);
+
+// let number1 = +prompt("Give a number");
+// let number2 = +prompt("Give a number");
+// function dortIslem() {
+//   let number1 = +prompt("Give an number");
+//   let funct = prompt("Give an operator");
+//   let number2 = +prompt("Give an number");
+//   if (funct == "+") {
+//     console.log(`${number1} + ${number2} = ${number1 + number2} `);
+//   } else if (funct == "-") {
+//     console.log(`${number1} - ${number2} = ${number1 - number2} `);
+//   } else if (funct == "*") {
+//     console.log(`${number1} * ${number2} = ${number1 * number2} `);
+//   } else if (funct == "/") {
+//     console.log(`${number1} / ${number2} = ${number1 / number2} `);
+//     console.log("please give correct operator");
+//   }
+// }
+
+// dortIslem();
+
+// function oddOrEven(number){
+//     if(number % 2 === 0){
+//         console.log("Even");
+//     }else {
+//         console.log("Odd");
+//     }
+// }
+
+// oddOrEven(22)
+// const tekMi = function (x) {
+//   return x % 2 ? "tek" : "Çift";
+// };
+
+// const number = +prompt("Give a number");
+// console.log(`${number}:  ${tekMi(number)}`);
+
+// const sum = (a, b) => a + b;
+// alert(sum(1, 2));
+
+// const topla = (a, b) => {
+//   return a + b;
+// };
+
+// alert(topla(2, 5));
+
+// const tekMi = (x) => (x % 2 ? "Tek" : "Çift");
+// console.log(tekMi(5));
+
+// p*r**
+
+// const areaOfCirclre = (pi, r) => pi *( r * r);
+// alert(areaOfCirclre(3.14, 2));
+
+// const age = (year) => new Date().getFullYear() - year;
+
+// console.log(age(1994));
+
