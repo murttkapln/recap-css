@@ -461,3 +461,35 @@ gidelim
 // let text = "                                koşun lan                    "
 // console.log(text);
 // console.log(text.trim());
+
+// let text = "Hayvanat   "
+// console.log(text.length);
+
+//** DİZİLER */
+// const sayilar = [1,2,"3", "Üç"]
+// sayilar.includes(2)
+// sayilar.includes(3)
+// sayilar.includes("3")
+// sayilar.includes("3")
+
+// const elementler = ["Ateş","Hava", "Su"]
+// console.log(elementler.join());
+// console.log(elementler.join(""));
+// console.log(elementler.join(" "));
+// console.log(elementler.join("<=>"));
+// const animals = ["elephant","birds","camel","mick","cat"]
+// console.log(animals.slice(2));
+// console.log(animals.slice(2,4));
+// console.log(animals.slice(1,5));
+
+// const arr1 = [1, 2, "a", "1a"];
+// console.log(arr1.toString());
+// const arr2 = [2,9,9]
+// console.log(arr2.indexOf(9));
+// console.log(arr2.lastIndexOf(9));
+// console.log(arr2.indexOf(4));
+
+// const harfler = ["a", "b", "c"],
+//   rakamlar = [1, 2, 3];
+// const birleştir = harfler.concat(rakamlar, 4, [5, 6]);
+// console.log(birleştir);
