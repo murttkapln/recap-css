@@ -428,3 +428,18 @@ gidelim
 // let text = "Is this all there is?."
 
 // console.log(text.match(/\s/g));
+// let text = "HELLO, LOOK AT YOU!";
+// console.log(text.match(/\bLO/));
+// let text = "HELLO, LOOK AT YOU!";
+// console.log(text.match(/LO\b/));
+// let text = "Visit W3Schools. Hello World!"; 
+// console.log(text.match(/\u0057/g));
+// let text = "Hellooo World! Hello W3Schools!"
+// console.log(text.match(/o+/g));
+
+// let text = "Hellooo World! Hello W3Schools!"; 
+// console.log(text.match(/lo*/g));
+
+// let text = "1, 100 or 1000?";
+// console.log(text.match(/10?/g));
+
