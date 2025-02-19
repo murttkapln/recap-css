@@ -411,3 +411,20 @@ gidelim
 
 // console.log(age(1994));
 
+// let text = "Is this all there is?";
+
+// console.log(text.match(/[h]/g));
+// let text = "1234567890"
+// console.log(text.match(/[1-4]/g));
+
+// let text = "re, red, green, gren, gr,blue, yellow";
+
+// console.log(text.match(/(red|green)/g));
+
+
+// let text ="Give 100%!"
+// console.log(text.match(/\d/g));
+
+// let text = "Is this all there is?."
+
+// console.log(text.match(/\s/g));
