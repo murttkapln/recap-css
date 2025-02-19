@@ -421,7 +421,6 @@ gidelim
 
 // console.log(text.match(/(red|green)/g));
 
-
 // let text ="Give 100%!"
 // console.log(text.match(/\d/g));
 
@@ -432,14 +431,33 @@ gidelim
 // console.log(text.match(/\bLO/));
 // let text = "HELLO, LOOK AT YOU!";
 // console.log(text.match(/LO\b/));
-// let text = "Visit W3Schools. Hello World!"; 
+// let text = "Visit W3Schools. Hello World!";
 // console.log(text.match(/\u0057/g));
 // let text = "Hellooo World! Hello W3Schools!"
 // console.log(text.match(/o+/g));
 
-// let text = "Hellooo World! Hello W3Schools!"; 
+// let text = "Hellooo World! Hello W3Schools!";
 // console.log(text.match(/lo*/g));
 
 // let text = "1, 100 or 1000?";
 // console.log(text.match(/10?/g));
 
+// let s = "Hello John, welcome to Clarusway.";
+// console.log(s.split(" "));
+// console.log(s.slice(12,-10));
+// console.log(s.substr(23,10));
+
+// let s = "Welcome to Clarusway.";
+// console.log(s.substring(10, 15));
+
+// console.log("KOŞ ALİ KOŞ".toLocaleLowerCase());
+// console.log("ali koş lan".toUpperCase());
+
+// let text = "Ali KOŞ abicim"
+// console.log(text.toUpperCase());
+// console.log(text.toLowerCase());
+// console.log(text);
+
+// let text = "                                koşun lan                    "
+// console.log(text);
+// console.log(text.trim());
