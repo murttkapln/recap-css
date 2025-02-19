@@ -493,3 +493,27 @@ gidelim
 //   rakamlar = [1, 2, 3];
 // const birleştir = harfler.concat(rakamlar, 4, [5, 6]);
 // console.log(birleştir);
+
+// const rakamlar = [-5,15,22,-4,45,78,-25]
+// let toplam = 0;
+// for(let i = 0; i<rakamlar.length; i++){
+//     toplam += rakamlar[i]
+// }
+
+// console.log(toplam);
+
+const arr1 = [-5, 15, 22, -4, 45, 78];
+
+const topla = (arr1) => {
+  let negatifler = [];
+  let pozitifler = [];
+  for (let i = 0; i < arr1.length; i++)
+    if (arr1[i] < 0) {
+      negatifler.push(arr1[i]);
+    } else {
+      pozitifler.push(arr1[i]);
+    }
+  console.log("negatifler", negatifler);
+  console.log("pozitifler", pozitifler);
+};
+topla(arr1);
