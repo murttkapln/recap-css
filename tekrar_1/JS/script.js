@@ -564,3 +564,21 @@ gidelim
 // arr1.forEach((s)=>sum += s)
 
 // document.querySelector("#sum").innerHTML = sum
+
+// const arr1 = [-5, 25, -14, 7];
+// const newArr = [];
+// arr1.forEach(square);
+
+// function square(value, index, arr1) {
+//   newArr[index] = value * 5;
+// }
+
+// // console.log(arr1);
+// console.log(newArr);
+
+// arr1.forEach((s,i)=>newArr[i]=s*5)
+// console.log(newArr);
+
+const numbers = [3, 7, 17, 8, 9, 3];
+const multiple = numbers.map((x) => x * 5);
+console.log(multiple);
