@@ -618,3 +618,7 @@ gidelim
 
 // const sameOnes = names.filter((x)=>x.includes("S"))
 // console.log(sameOnes);
+
+// const coords = [-100, 150, -32, 43, -20];
+// const sum = coords.reduce((x, y) => x + y);
+// console.log(sum);
