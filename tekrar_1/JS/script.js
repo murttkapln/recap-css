@@ -519,9 +519,17 @@ gidelim
 // topla(arr1);
 
 
-const arr1 = [-5, 15, 22, -4, 45, 78];
-let sum = 0;
-for(let i in arr1){
-  sum += arr1[i]
-}
-console.log(sum);
+// const arr1 = [-5, 15, 22, -4, 45, 78];
+// let sum = 0;
+// for(let i in arr1){
+//   sum += arr1[i]
+// }
+// console.log(sum);
+
+// const arr1 = [-5, 15, 22, -4, 45, 78];
+// let sum = 0;
+// for(let item of arr1){
+//   sum += item
+//   // console.log(item);
+// }
+// console.log(sum);
