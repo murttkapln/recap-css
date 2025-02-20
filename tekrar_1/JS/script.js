@@ -548,3 +548,19 @@ gidelim
 //   console.log(v);
 // }
 // students.forEach((k) => console.log(k));
+
+// const arr1 = [65, 44, 12, 4, -20, 19];
+
+// let sum = 0;
+// arr1.forEach(hesapla);
+
+// function hesapla(s) {
+//   sum += s;
+// }
+
+// console.log(sum);
+// const arr1 = [65,44,12,4,-20,19]
+// let sum = 0
+// arr1.forEach((s)=>sum += s)
+
+// document.querySelector("#sum").innerHTML = sum
