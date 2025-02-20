@@ -622,3 +622,8 @@ gidelim
 // const coords = [-100, 150, -32, 43, -20];
 // const sum = coords.reduce((x, y) => x + y);
 // console.log(sum);
+// const coords = [-100, 150, -32, 43, -20];
+// const average = coords.reduce((x, y) => (x + y / coords.length));
+// console.log(average.toFixed(2));
+// const salaries = [3000, 2891, 3500, 4200, 7000, 2500];
+// newSalaries = salaries.filter((x)=>x<3000).map((x)=>x*1.1).reduce((x,y)=> console.log(x+y))
