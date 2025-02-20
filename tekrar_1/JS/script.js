@@ -606,3 +606,15 @@ gidelim
 //   }
 // });
 // console.log(costs);
+// const coord = [-100, 150, -32, 43, -20];
+// negativesCoord = coord.filter((x) => x < 0);
+// console.log(negativesCoord);
+
+// coord.filter((x)=>x<0).map((t)=>t*-1).forEach((y)=> console.log(y))
+
+// console.log(coord.sort((a,b)=> a-b));
+
+// const names = ["Ali", "veli", "Ahmet","Samet", "Selim","Osman", "Sena"]
+
+// const sameOnes = names.filter((x)=>x.includes("S"))
+// console.log(sameOnes);
