@@ -579,6 +579,30 @@ gidelim
 // arr1.forEach((s,i)=>newArr[i]=s*5)
 // console.log(newArr);
 
-const numbers = [3, 7, 17, 8, 9, 3];
-const multiple = numbers.map((x) => x * 5);
-console.log(multiple);
+// const numbers = [3, 7, 17, 8, 9, 3];
+// const multiple = numbers.map((x) => x * 5);
+// console.log(multiple);
+
+// let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "Canan"];
+
+// names = names.map((x) => x.toLocaleUpperCase());
+// console.log(names);
+
+// const euro = 38;
+// const dolar = 37;
+// const prices = [100, 150, 100, 50, 80];
+
+// let euroPrices = prices.map((x) => (x / euro).toFixed(2)+"£");
+// let dolarPrices = prices.map((x) => (x / dolar).toFixed(2)+"$");
+
+// console.log(euroPrices);
+// console.log(dolarPrices);
+
+// const costs = prices.map(function (d, i) {
+//   if (d > 100) {
+//     return `${i + 1}.Ürün Fiyatı:${(d * 1.1).toFixed(2)}`;
+//   } else {
+//     return `${i + 1}.ürün Fiyatı:${(d * 1.15).toFixed(2)}`;
+//   }
+// });
+// console.log(costs);
