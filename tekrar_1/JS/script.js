@@ -502,18 +502,26 @@ gidelim
 
 // console.log(toplam);
 
-const arr1 = [-5, 15, 22, -4, 45, 78];
+// const arr1 = [-5, 15, 22, -4, 45, 78];
 
-const topla = (arr1) => {
-  let negatifler = [];
-  let pozitifler = [];
-  for (let i = 0; i < arr1.length; i++)
-    if (arr1[i] < 0) {
-      negatifler.push(arr1[i]);
-    } else {
-      pozitifler.push(arr1[i]);
-    }
-  console.log("negatifler", negatifler);
-  console.log("pozitifler", pozitifler);
-};
-topla(arr1);
+// const topla = (arr1) => {
+//   let negatifler = [];
+//   let pozitifler = [];
+//   for (let i = 0; i < arr1.length; i++)
+//     if (arr1[i] < 0) {
+//       negatifler.push(arr1[i]);
+//     } else {
+//       pozitifler.push(arr1[i]);
+//     }
+//   console.log("negatifler", negatifler);
+//   console.log("pozitifler", pozitifler);
+// };
+// topla(arr1);
+
+
+const arr1 = [-5, 15, 22, -4, 45, 78];
+let sum = 0;
+for(let i in arr1){
+  sum += arr1[i]
+}
+console.log(sum);
