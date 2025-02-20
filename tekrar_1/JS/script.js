@@ -518,7 +518,6 @@ gidelim
 // };
 // topla(arr1);
 
-
 // const arr1 = [-5, 15, 22, -4, 45, 78];
 // let sum = 0;
 // for(let i in arr1){
@@ -533,3 +532,19 @@ gidelim
 //   // console.log(item);
 // }
 // console.log(sum);
+
+// let cars = ["BMW", "VOLVO", "MERCEDES"];
+
+// let str = "";
+// for (let item of cars) {
+//   str += item + " ";
+//   console.log(item);
+// }
+// console.log(str);
+
+// let students = ["John", "Ali", "Katty"];
+// students.forEach(write)
+// function write (v){
+//   console.log(v);
+// }
+// students.forEach((k) => console.log(k));
