@@ -627,3 +627,18 @@ gidelim
 // console.log(average.toFixed(2));
 // const salaries = [3000, 2891, 3500, 4200, 7000, 2500];
 // newSalaries = salaries.filter((x)=>x<3000).map((x)=>x*1.1).reduce((x,y)=> console.log(x+y))
+
+// const salaries = [3000, 2891, 3500, 4200, 7000, 2500];
+// newSalaries = salaries
+//   .filter((x) => x < 3000)
+//   .map((y) => y * 1.1)
+//   .reduce((a, b) => a + b);
+// console.log(newSalaries);
+// var x = ["9","25","111","John","James","Aaron"];
+// console.log (x.sort());
+
+// let colors = ["Red", "Yellow", "Green"];
+// colors.push("Red");
+// console.log(colors);
+// colors.shift();
+// console.log(colors);
