@@ -642,3 +642,21 @@ gidelim
 // console.log(colors);
 // colors.shift();
 // console.log(colors);
+
+const paragraf = document.getElementById("my-par")
+paragraf.style.color = "red"
+const buton = document.getElementById("btn")
+buton.style.color = "green"
+buton.style.backgroundColor="black"
+buton.style.fontSize="2rem"
+buton.innerText = "ARA"
+
+const resim = document.getElementsByTagName("img")
+resim[0].style.borderStyle="solid"
+resim[0].style.borderColor="purple"
+const header = document.getElementsByTagName("header")
+header[0].innerText = "DOM MANUPULATION"
+header[0].style.fontSize ="25px"
+header[0].style.fontFamily ="tahoma"
+header[0].style.color ="blue"
+
