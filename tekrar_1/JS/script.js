@@ -643,25 +643,26 @@ gidelim
 // colors.shift();
 // console.log(colors);
 
-const paragraf = document.getElementById("my-par")
-paragraf.style.color = "red"
-const buton = document.getElementById("btn")
-buton.style.color = "green"
-buton.style.backgroundColor="black"
-buton.style.fontSize="2rem"
-buton.innerText = "ARA"
+const paragraf = document.getElementById("my-par");
+paragraf.style.color = "red";
+const buton = document.getElementById("btn");
+buton.style.color = "green";
+buton.style.backgroundColor = "black";
+buton.style.fontSize = "2rem";
+buton.innerText = "ARA";
 
-const resim = document.getElementsByTagName("img")
-resim[0].style.borderStyle="solid"
-resim[0].style.borderColor="purple"
-const header = document.getElementsByTagName("header")
-header[0].innerText = "DOM MANUPULATION"
-header[0].style.fontSize ="25px"
-header[0].style.fontFamily ="tahoma"
-header[0].style.color ="blue"
+const resim = document.getElementsByTagName("img");
+resim[0].style.borderStyle = "solid";
+resim[0].style.borderColor = "purple";
+const header = document.getElementsByTagName("header");
+header[0].innerText = "DOM MANUPULATION";
+header[0].style.fontSize = "25px";
+header[0].style.fontFamily = "tahoma";
+header[0].style.color = "blue";
 
-const body = document.querySelector("#body")
-const title = document.querySelector(".title")
+const body = document.querySelector("#body");
+const title = document.querySelector(".title");
+body.style.backgroundImage = "linear-gradient(to right,green,yellow";
+title.innerText = "DOM EXAMPLES";
 
-body.style.backgroundImage="linear-gradient(to right,green,yellow"
-title.innerText = "DOM EXAMPLES"
+const khadija = document.querySelector(".head")
