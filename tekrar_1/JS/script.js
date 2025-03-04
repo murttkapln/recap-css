@@ -665,4 +665,7 @@ const title = document.querySelector(".title");
 body.style.backgroundImage = "linear-gradient(to right,green,yellow";
 title.innerText = "DOM EXAMPLES";
 
-const khadija = document.querySelector(".head")
+const head = document.querySelector(".head")
+head.style.fontSize = "2rem"
+const yaziSiyah = ()=> head.style.color = "black"
+const yaziBeyaz = ()=> head.style.color = "white"
