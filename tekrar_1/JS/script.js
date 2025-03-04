@@ -660,3 +660,8 @@ header[0].style.fontSize ="25px"
 header[0].style.fontFamily ="tahoma"
 header[0].style.color ="blue"
 
+const body = document.querySelector("#body")
+const title = document.querySelector(".title")
+
+body.style.backgroundImage="linear-gradient(to right,green,yellow"
+title.innerText = "DOM EXAMPLES"
