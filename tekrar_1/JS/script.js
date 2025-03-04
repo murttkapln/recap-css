@@ -665,7 +665,46 @@ const title = document.querySelector(".title");
 body.style.backgroundImage = "linear-gradient(to right,green,yellow";
 title.innerText = "DOM EXAMPLES";
 
-const head = document.querySelector(".head")
-head.style.fontSize = "2rem"
-const yaziSiyah = ()=> head.style.color = "black"
-const yaziBeyaz = ()=> head.style.color = "white"
+// const head = document.querySelector(".head")
+// head.style.fontSize = "2rem"
+// const yaziSiyah = ()=> head.style.color = "black"
+// const yaziBeyaz = ()=> head.style.color = "white"
+
+// document.querySelector(".head").onmouseover=function(){
+//     document.querySelector(".head").style.color="black"
+// }
+// document.querySelector(".head").onmouseout=function(){
+//     document.querySelector(".head").style.color="white"
+// }
+const head = document.querySelector(".head");
+head.addEventListener("mouseover", () => (head.style.color = "black"));
+head.addEventListener("mouseout", () => (head.style.color = "white"));
+head.addEventListener("click", () => {
+  head.style.backgroundColor = "purple";
+  head.style.padding = "2rem";
+  body.style.backgroundImage = "linear-gradient(to left,red,yellow,green";
+});
+
+const color = document.querySelector(".color");
+const btn = document.querySelector(".btn");
+const section = document.querySelector("#section");
+
+btn.addEventListener("click", () => {
+  const colorLists = [
+    "red",
+    "blue",
+    "yellow",
+    "darkcyan",
+    "blueviolet",
+    "bisque",
+    "orange",
+    "indigo",
+    "violet",
+    "aqua",
+    "deeppink",
+    "white",
+  ];
+  const randomNumber = Math.floor(Math.random() * colorLists.length);
+  section.style.backgroundColor = colorLists[randomNumber];
+  color.innerText = colorLists[randomNumber];
+});
